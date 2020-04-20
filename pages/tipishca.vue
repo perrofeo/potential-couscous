@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="fondo">
+    <div class="fondo fondo-tipishca">
       <b-navbar toggleable="false" type="" variant="">
         <b-navbar-brand v-b-popover.hover="'- Inicio'">
           <nuxt-link to="/">
@@ -210,15 +210,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-.fondo {
-  background-image: url('~assets/atardecer_tipishca.jpg');
-}
-.navbar {
-  width: 95vw;
-  margin: auto;
-}
-</style>
 
 <style>
 .fondo {
@@ -232,6 +223,13 @@ export default {
 .fondo-color {
   padding: 60px 30px 0;
   height: 60vh;
+}
+.fondo-tipishca {
+  background-image: url('~assets/atardecer_tipishca.jpg');
+}
+.navbar {
+  width: 95vw;
+  margin: auto;
 }
 .bg-info {
   background-color: transparent !important;

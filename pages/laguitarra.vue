@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="fondo">
+    <div class="fondo fondo-guitarra">
       <b-navbar toggleable="false" type="" variant="">
         <b-navbar-brand v-b-popover.hover="'- Inicio'">
           <nuxt-link
@@ -171,15 +171,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-.fondo {
-  background-image: url('~assets/poster10.png');
-}
-.navbar {
-  width: 95vw;
-  margin: auto;
-}
-</style>
 
 <style>
 .fondo {
@@ -190,12 +181,19 @@ export default {
   background-blend-mode: darken;
   height: auto;
 }
+.fondo-guitarra {
+  background-image: url('~assets/poster10.png');
+}
 .fondo-color {
   padding: 60px 30px 0;
   height: 60vh;
 }
 .bg-info {
   background-color: transparent !important;
+}
+.navbar {
+  width: 95vw;
+  margin: auto;
 }
 .navbar-brand img {
   width: 50px;

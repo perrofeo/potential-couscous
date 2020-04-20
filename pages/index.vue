@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="container container-index">
       <div>
         <b-navbar toggleable="false" type="" variant="">
           <b-navbar-brand v-b-popover.hover="'- ¡Jau!'" title="perrofeofilms">
@@ -98,7 +98,13 @@ export default {
   /* align-items: center; */
   text-align: center;
 }
-
+.container-index {
+  background-image: url('~assets/portadaC.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+}
 .navbar {
   width: 95vw;
 }
@@ -270,18 +276,4 @@ export default {
     bottom: 80px;
   }
 }
-</style>
-<style scoped>
-.container {
-  background-image: url('~assets/portadaC.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-width: 100%;
-}
-/* @media (max-width: 420px) {
-  .container {
-    background-image: url('~assets/portadaB3.png');
-  }
-} */
 </style>

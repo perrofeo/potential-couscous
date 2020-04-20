@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="fondo">
+    <div class="fondo fondo-nosotros">
       <b-navbar toggleable="false" type="" variant="">
         <b-navbar-brand v-b-popover.hover="'- Inicio'">
           <nuxt-link to="/">
@@ -145,19 +145,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-.fondo {
-  background-image: url('~assets/portadaNoche.jpg');
-}
-.navbar {
-  width: 95vw;
-  margin: auto;
-}
-.boton-compra {
-  margin-bottom: 20px;
-  text-decoration: none;
-}
-</style>
 
 <style>
 .fondo {
@@ -171,6 +158,13 @@ export default {
 .fondo-color {
   padding: 60px 30px 0;
   height: 60vh;
+}
+.fondo-nosotros{
+  background-image: url('~assets/portadaNoche.jpg');
+}
+.navbar {
+  width: 95vw;
+  margin: auto;
 }
 .bg-info {
   background-color: transparent !important;
