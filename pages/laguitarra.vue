@@ -182,7 +182,7 @@ export default {
   height: auto;
 }
 .fondo-guitarra {
-  background-image: url('~assets/poster10.png');
+  background-image: url('/poster10.png');
 }
 .fondo-color {
   padding: 60px 30px 0;

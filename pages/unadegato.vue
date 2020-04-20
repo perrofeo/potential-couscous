@@ -191,7 +191,7 @@ export default {
   height: 60vh;
 }
 .fondo-gato {
-  background-image: url('~assets/unadegatoWeb.jpg');
+  background-image: url('/unadegatoWeb.jpg');
   background-position: bottom;
 }
 .navbar {

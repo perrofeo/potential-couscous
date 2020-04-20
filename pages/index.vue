@@ -99,7 +99,7 @@ export default {
   text-align: center;
 }
 .container-index {
-  background-image: url('~assets/portadaC.jpg');
+  background-image: url('/portadaC.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

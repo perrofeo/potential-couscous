@@ -186,7 +186,7 @@ export default {
   height: auto;
 }
 .fondo-cushuri {
-  background-image: url('~assets/portada_cushuri.png');
+  background-image: url('/portada_cushuri.png');
 }
 .fondo-color {
   padding: 60px 30px 0;

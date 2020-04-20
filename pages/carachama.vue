@@ -186,7 +186,7 @@ export default {
   height: auto;
 }
 .fondo-carachama {
-  background-image: url('~assets/portada3.png');
+  background-image: url('/portada3.png');
 }
 .fondo-color {
   padding: 60px 30px 0;

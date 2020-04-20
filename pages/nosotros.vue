@@ -160,7 +160,7 @@ export default {
   height: 60vh;
 }
 .fondo-nosotros{
-  background-image: url('~assets/portadaNoche.jpg');
+  background-image: url('/portadaNoche.jpg');
 }
 .navbar {
   width: 95vw;

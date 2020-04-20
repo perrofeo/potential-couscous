@@ -225,7 +225,7 @@ export default {
   height: 60vh;
 }
 .fondo-tipishca {
-  background-image: url('~assets/atardecer_tipishca.jpg');
+  background-image: url('/atardecer_tipishca.jpg');
 }
 .navbar {
   width: 95vw;
