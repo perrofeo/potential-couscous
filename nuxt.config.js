@@ -62,7 +62,8 @@ export default {
   manifest: {
     name: 'perrofeofilms',
     short_name: 'perrofeofilms',
-    lang: 'es'
+    lang: 'es',
+    display: 'minimal-ui'
   },
   /*
   ** Customize the progress-bar color
