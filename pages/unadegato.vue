@@ -153,19 +153,19 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Jair y su pandilla salen en busca del tesoro: los huevos de carachama, un pez prehistórico con cara de pocos amigos. Un día lleno de aventuras les espera.'
+            'Reiter cabalga por los ríos amazónicos en busca de un remedio llamado Uña de Gato.'
         },
         {
           hid: 'og:description',
           property: 'og:description',
           content:
-            'Jair y su pandilla salen en busca del tesoro: los huevos de carachama, un pez prehistórico con cara de pocos amigos. Un día lleno de aventuras les espera.'
+            'Reiter cabalga por los ríos amazónicos en busca de un remedio llamado Uña de Gato.'
         },
         {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://www.perrofeofilms.com/HuevosDeCarachama_portada1.jpg'
+            'https://www.perrofeofilms.com/PortadaCcon_titulo.jpg'
         },
         {
           hid: 'og:url',
