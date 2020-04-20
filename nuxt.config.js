@@ -43,7 +43,7 @@ export default {
       },
       // Twitter Card
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@perrofeofilms' }
+      { name: 'twitter:site', content: '@perrofeo_' }
     ],
     script: [
       {
@@ -63,7 +63,8 @@ export default {
     name: 'perrofeofilms',
     short_name: 'perrofeofilms',
     lang: 'es',
-    display: 'minimal-ui'
+    display: 'minimal-ui',
+    background_color: "#000000",
   },
   /*
   ** Customize the progress-bar color
