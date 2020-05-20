@@ -65,6 +65,7 @@ export default {
     lang: 'es',
     display: 'minimal-ui',
     background_color: "#000000",
+    start_url: "/?source=pwa"
   },
   /*
   ** Customize the progress-bar color
