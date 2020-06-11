@@ -24,6 +24,7 @@ html {
 }
 body {
   font-family: 'Source Code Pro', monospace;
+  background-color: beige;
 }
 h2 {
   font-size: 1.8rem;
