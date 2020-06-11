@@ -65,6 +65,7 @@ export default {
     lang: 'es',
     display: 'minimal-ui',
     background_color: "#000000",
+    theme_color: "#ddfe19",
     start_url: "/?source=pwa"
   },
   /*
