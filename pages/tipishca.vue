@@ -198,7 +198,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://www.perrofeofilms.com/Tipishca-PORTADA1.jpg'
+          content: 'https://www.perrofeofilms.com/atardecer_tipishca.jpg'
         },
         {
           hid: 'og:url',
