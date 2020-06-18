@@ -149,12 +149,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'DIY amazónico'
+          content: 'DIY amazónico - Cómo construir una guitarra al estilo amázonico.'
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'DIY amazónico'
+          content: 'DIY amazónico - Cómo construir una guitarra al estilo amázonico.'
         },
         {
           hid: 'og:image',
