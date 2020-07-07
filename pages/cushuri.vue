@@ -83,14 +83,6 @@
       <nuxt-link to="/tipishca/">👈🏼_Tipishca</nuxt-link>
     </div>
     <div class="contacto text-center">
-      <div class="boton-suscribirse">
-        <div
-          class="g-ytsubscribe"
-          data-channel="perrofeofilms"
-          data-layout="default"
-          data-count="hidden"
-        />
-      </div>
       <p>
         Echa un vistazo a
         <a

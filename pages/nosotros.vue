@@ -53,14 +53,6 @@
       <p>Pero tenemos email: <a href="mailto:perrofeofilms@gmail.com">perrofeofilms@gmail.com</a></p><br>
     </div>
     <div class="contacto text-center">
-      <div class="boton-suscribirse">
-        <div
-          class="g-ytsubscribe"
-          data-channel="perrofeofilms"
-          data-layout="default"
-          data-count="hidden"
-        />
-      </div>
       <p>
         Echa un vistazo a
         <a
