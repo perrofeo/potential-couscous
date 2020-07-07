@@ -119,14 +119,6 @@
       </div>
     </div>
     <div class="contacto text-center">
-      <div class="boton-suscribirse">
-        <div
-          class="g-ytsubscribe"
-          data-channel="perrofeofilms"
-          data-layout="default"
-          data-count="hidden"
-        />
-      </div>
       <p>
         Echa un vistazo a
         <a
@@ -312,28 +304,6 @@ export default {
   color: rgba(222, 253, 25, 1);
   background-color: black;
   margin-bottom: 10px;
-}
-.contacto {
-  width: 100%;
-  padding: 40px 20px 30px;
-}
-.contacto img {
-  width: 110px;
-  padding: 20px 0;
-}
-.contacto .boton-suscribirse {
-  padding-bottom: 20px;
-}
-.contacto a {
-  color: #212529;
-  text-decoration-color: #212529;
-  background-color: #defd19;
-}
-.contacto a:hover {
-  text-decoration: underline;
-  color: #212529;
-  text-decoration-color: #212529;
-  background-color: #defd19;
 }
 .brand-footer img {
   max-width: 150px;

@@ -45,11 +45,7 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@perrofeo_' }
     ],
-    script: [
-      {
-        src: 'https://apis.google.com/js/platform.js'
-      }
-    ],
+    script: [],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {

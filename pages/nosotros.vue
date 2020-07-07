@@ -225,28 +225,6 @@ export default {
   max-width: 150px;
   opacity: 0.5;
 }
-.contacto {
-  width: 100%;
-  padding: 40px 20px 30px;
-}
-.contacto img {
-  width: 110px;
-  padding: 20px 0;
-}
-.contacto .boton-suscribirse {
-  padding-bottom: 20px;
-}
-.contacto a {
-  color: #212529;
-  text-decoration-color: #212529;
-  background-color: #defd19;
-}
-.contacto a:hover {
-  text-decoration: underline;
-  color: #212529;
-  text-decoration-color: #212529;
-  background-color: #defd19;
-}
 .info-home {
   color: #212529;
 }

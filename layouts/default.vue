@@ -51,6 +51,21 @@ h2 {
 .navbar a:hover {
   text-decoration: none;
 }
+.contacto {
+  width: 100%;
+  padding: 100px 20px 100px;
+}
+.contacto a {
+  color: #212529;
+  text-decoration-color: #212529;
+  background-color: #defd19;
+}
+.contacto a:hover {
+  text-decoration: underline;
+  color: #212529;
+  text-decoration-color: #212529;
+  background-color: #defd19;
+}
 .footer {
   width: 100%;
   color: rgba(255, 255, 255, 0.5);
