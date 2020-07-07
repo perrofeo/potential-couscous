@@ -51,6 +51,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900'
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://cdn.jsdelivr.net'
       }
     ]
   },
