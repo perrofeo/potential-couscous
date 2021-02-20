@@ -43,13 +43,15 @@
     </div>
     <div class="info text-center">
       <h2>Sobre nosotros</h2>
-      <p>
+      <p class="info-text">
         Perrofeofilms es un laboratorio audiovisual que mezcla el documental con
         la ficción, con el objetivo de lograr algo que no es ni verdad ni
         mentira, sino todo lo contrario.
       </p>
       <img src="~assets/tropical_job.jpg" /><br /><br />
-      <p>Existen otros mundos, los que no existimos somos nosotros.</p>
+      <p class="info-text">
+        Existen otros mundos, los que no existimos somos nosotros.
+      </p>
       <p>
         Pero tenemos email:
         <a href="mailto:perrofeofilms@gmail.com">perrofeofilms@gmail.com</a>
@@ -231,6 +233,9 @@ export default {
   max-width: 500px;
   margin: auto;
   width: 100%;
+}
+.info-text {
+  padding: 30px 0;
 }
 .info a {
   color: #000;
