@@ -8,30 +8,29 @@
               class="rounded-circle"
               src="~assets/logo_perrofeofilms_amarillo.jpg"
               alt="perrofeo logo"
-            >
+            />
           </nuxt-link>
         </b-navbar-brand>
         <b-navbar-toggle target="nav_collapse">
-          <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger">
+          <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger" />
         </b-navbar-toggle>
         <b-collapse id="nav_collapse" is-nav class="text-right">
           <b-navbar-nav>
-            <nuxt-link
-              to="/"
-            >
+            <nuxt-link to="/">
               <span>Inicio</span>
             </nuxt-link>
-            <nuxt-link
-              to="/tipishca/"
-            >
+            <nuxt-link to="/tipishca/">
               <span>Tipishca: La Serie</span>
             </nuxt-link>
-            <nuxt-link
-              to="/unadegato/"
-            >
+            <nuxt-link to="/unadegato/">
               <span>Uña de Gato</span>
             </nuxt-link>
-            <a href="https://teespring.com/stores/perrofeofilms-shop" class="boton-shop" target="_blank" rel="noopener">
+            <a
+              href="https://teespring.com/stores/perrofeofilms-shop"
+              class="boton-shop"
+              target="_blank"
+              rel="noopener"
+            >
               <span>Shop</span>
             </a>
             <social-nav />
@@ -45,12 +44,17 @@
     <div class="info text-center">
       <h2>Sobre nosotros</h2>
       <p>
-        Perrofeofilms es un laboratorio audiovisual que mezcla el documental con la ficción,
-        con el objetivo de lograr algo que no es ni verdad ni mentira, sino todo lo contrario.
+        Perrofeofilms es un laboratorio audiovisual que mezcla el documental con
+        la ficción, con el objetivo de lograr algo que no es ni verdad ni
+        mentira, sino todo lo contrario.
       </p>
-      <img src="~assets/inberlin.jpg" /><br><br>
+      <img src="~assets/tropical_job.jpg" /><br /><br />
       <p>Existen otros mundos, los que no existimos somos nosotros.</p>
-      <p>Pero tenemos email: <a href="mailto:perrofeofilms@gmail.com">perrofeofilms@gmail.com</a></p><br>
+      <p>
+        Pero tenemos email:
+        <a href="mailto:perrofeofilms@gmail.com">perrofeofilms@gmail.com</a>
+      </p>
+      <br />
     </div>
     <div class="contacto text-center">
       <p>
@@ -59,83 +63,112 @@
           href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw"
           target="_blank"
           rel="noopener"
-        > nuestro canal de YouTube</a> y si te interesa lo que hacemos,
+        >
+          nuestro canal de YouTube</a
+        >
+        y si te interesa lo que hacemos,
         <a
           href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw?sub_confirmation=1"
           target="_blank"
           rel="noopener"
-        >suscríbete</a>.
+          >suscríbete</a
+        >.
       </p>
     </div>
     <div class="footer text-center">
       <div class="brand-footer">
         <nuxt-link to="/">
-          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms">
+          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms" />
         </nuxt-link>
       </div>
       <div class="footer-menu">
         <nuxt-link to="/tipishca/">Tipishca</nuxt-link>
-        <nuxt-link to="/unadegato/">
-          Uña de Gato</nuxt-link>
+        <nuxt-link to="/unadegato/"> Uña de Gato</nuxt-link>
         <nuxt-link to="/nosotros/">Nosotros</nuxt-link>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener">
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+        >
           <span>Shop</span>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"></a>
-        <a href="https://www.instagram.com/perrofeofilms/" target="_blank" rel="noopener"><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"></a>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener"><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"></a>
-        <a href="https://www.patreon.com/perrofeofilms" target="_blank" rel="noopener"><img src="~assets/PATREON_logo-footer.svg" title="Patreon"></a>
-        <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL_logo-footer.svg" title="Email"></a>
+        <a
+          href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"
+        /></a>
+        <a
+          href="https://www.instagram.com/perrofeofilms/"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"
+        /></a>
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"
+        /></a>
+        <a
+          href="https://www.patreon.com/perrofeofilms"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/PATREON_logo-footer.svg" title="Patreon"
+        /></a>
+        <a href="mailto:perrofeofilms@gmail.com"
+          ><img src="~assets/EMAIL_logo-footer.svg" title="Email"
+        /></a>
       </div>
       <p class="copyright">perrofeofilms © 2020</p>
     </div>
   </div>
 </template>
 <script>
-import SocialNav from '@/components/SocialNav'
+import SocialNav from "@/components/SocialNav";
 
 export default {
   components: {
     SocialNav
   },
-  data () {
+  data() {
     return {
-      title: 'Sobre nosotros'
-    }
+      title: "Sobre nosotros"
+    };
   },
-  head () {
+  head() {
     return {
-      title: 'perrofeofilms - ' + this.title,
+      title: "perrofeofilms - " + this.title,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
-          hid: 'description',
-          name: 'description',
+          hid: "description",
+          name: "description",
           content:
-            'Laboratorio audiovisual que mezcla el documental con la ficción.'
+            "Laboratorio audiovisual que mezcla el documental con la ficción."
         },
         {
-          hid: 'og:url',
-          property: 'og:url',
-          content: 'https://www.perrofeofilms.com/nosotros/'
+          hid: "og:url",
+          property: "og:url",
+          content: "https://www.perrofeofilms.com/nosotros/"
         },
         {
-          hid: 'og:description',
-          name: 'og:description',
+          hid: "og:description",
+          name: "og:description",
           content:
-            'Laboratorio audiovisual que mezcla el documental con la ficción.'
+            "Laboratorio audiovisual que mezcla el documental con la ficción."
         },
         {
-          hid: 'og:image',
-          property: 'og:image',
-          content: 'https://www.perrofeofilms.com/portadaNocheRec.jpg'
+          hid: "og:image",
+          property: "og:image",
+          content: "https://www.perrofeofilms.com/portadaNocheRec.jpg"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
@@ -151,8 +184,8 @@ export default {
   padding: 60px 30px 0;
   height: 60vh;
 }
-.fondo-nosotros{
-  background-image: url('/portadaNoche.jpg');
+.fondo-nosotros {
+  background-image: url("/portadaNoche.jpg");
 }
 .navbar {
   width: 95vw;
@@ -176,7 +209,7 @@ export default {
   text-align: center;
 }
 .title {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   display: block;
   font-weight: bold;
   font-size: 100px;
