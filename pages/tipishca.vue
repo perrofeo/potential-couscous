@@ -8,45 +8,38 @@
               class="rounded-circle"
               src="~assets/logo_perrofeofilms_amarillo.jpg"
               alt="perrofeo logo"
-            >
+            />
           </nuxt-link>
         </b-navbar-brand>
         <b-navbar-toggle target="nav_collapse">
-          <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger">
+          <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger" />
         </b-navbar-toggle>
         <b-collapse id="nav_collapse" is-nav class="text-right">
           <b-navbar-nav>
-            <nuxt-link
-              to="/"
-            >
+            <nuxt-link to="/">
               <span>Inicio</span>
             </nuxt-link>
-            <nuxt-link
-              to="/laguitarra/"
-            >
+            <nuxt-link to="/laguitarra/">
               <span>La Guitarra de Hitler</span>
             </nuxt-link>
-            <nuxt-link
-              to="/cushuri/"
-            >
+            <nuxt-link to="/cushuri/">
               <span>Cushuri</span>
             </nuxt-link>
-            <nuxt-link
-              to="/carachama/"
-            >
+            <nuxt-link to="/carachama/">
               <span>Huevos de Carachama</span>
             </nuxt-link>
-            <nuxt-link
-              to="/unadegato/"
-            >
+            <nuxt-link to="/unadegato/">
               <span>Uña de Gato</span>
             </nuxt-link>
-            <nuxt-link
-              to="/nosotros/"
-            >
+            <nuxt-link to="/nosotros/">
               <span>Sobre nosotros</span>
             </nuxt-link>
-            <a href="https://teespring.com/stores/perrofeofilms-shop" class="boton-shop" target="_blank" rel="noopener">
+            <a
+              href="https://teespring.com/stores/perrofeofilms-shop"
+              class="boton-shop"
+              target="_blank"
+              rel="noopener"
+            >
               <span>Shop</span>
             </a>
             <social-nav />
@@ -63,7 +56,11 @@
     </div>
     <div class="info text-center">
       <h2>Historias desde el Amazonas</h2>
-      <p>Filmada en el corazón del Amazonas peruano, "Tipishca: La tierra sin mal" es una serie que transita entre la realidad y la ficción y que cuenta historias de un mundo que está cambiando para siempre.</p>
+      <p class="info-text">
+        Filmada en el corazón del Amazonas peruano, "Tipishca: La tierra sin
+        mal" es una serie que transita entre la realidad y la ficción y que
+        cuenta historias de un mundo que está cambiando para siempre.
+      </p>
     </div>
     <div class="portadas-tipishca">
       <div>
@@ -80,7 +77,9 @@
             Episodio 1 - La Guitarra de Hitler
           </b-card-text>
 
-          <nuxt-link to="/laguitarra/"><b-button variant="primary">+ info</b-button></nuxt-link>
+          <nuxt-link to="/laguitarra/"
+            ><b-button variant="primary">+ info</b-button></nuxt-link
+          >
         </b-card>
       </div>
       <div>
@@ -97,7 +96,9 @@
             Episodio 2 - Cushuri
           </b-card-text>
 
-          <nuxt-link to="/cushuri/"><b-button variant="primary">+ info</b-button></nuxt-link>
+          <nuxt-link to="/cushuri/"
+            ><b-button variant="primary">+ info</b-button></nuxt-link
+          >
         </b-card>
       </div>
       <div>
@@ -114,7 +115,9 @@
             Episodio 3 - Huevos de Carachama
           </b-card-text>
 
-          <nuxt-link to="/carachama/"><b-button variant="primary">+ info</b-button></nuxt-link>
+          <nuxt-link to="/carachama/"
+            ><b-button variant="primary">+ info</b-button></nuxt-link
+          >
         </b-card>
       </div>
     </div>
@@ -125,35 +128,64 @@
           href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw"
           target="_blank"
           rel="noopener"
-        > nuestro canal de YouTube</a> y si te interesa lo que hacemos,
+        >
+          nuestro canal de YouTube</a
+        >
+        y si te interesa lo que hacemos,
         <a
           href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw?sub_confirmation=1"
           target="_blank"
           rel="noopener"
-        >suscríbete</a>.
+          >suscríbete</a
+        >.
       </p>
     </div>
     <div class="footer text-center">
       <div class="brand-footer">
         <nuxt-link to="/">
-          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms">
+          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms" />
         </nuxt-link>
       </div>
       <div class="footer-menu">
         <nuxt-link to="/tipishca/">Tipishca</nuxt-link>
-        <nuxt-link to="/unadegato/">
-          Uña de Gato</nuxt-link>
+        <nuxt-link to="/unadegato/"> Uña de Gato</nuxt-link>
         <nuxt-link to="/nosotros/">Nosotros</nuxt-link>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener">
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+        >
           <span>Shop</span>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"></a>
-        <a href="https://www.instagram.com/perrofeofilms/" target="_blank" rel="noopener"><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"></a>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener"><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"></a>
-        <a href="https://www.patreon.com/perrofeofilms" target="_blank" rel="noopener"><img src="~assets/PATREON_logo-footer.svg" title="Patreon"></a>
-        <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL_logo-footer.svg" title="Email"></a>
+        <a
+          href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"
+        /></a>
+        <a
+          href="https://www.instagram.com/perrofeofilms/"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"
+        /></a>
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"
+        /></a>
+        <a
+          href="https://www.patreon.com/perrofeofilms"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/PATREON_logo-footer.svg" title="Patreon"
+        /></a>
+        <a href="mailto:perrofeofilms@gmail.com"
+          ><img src="~assets/EMAIL_logo-footer.svg" title="Email"
+        /></a>
       </div>
       <p class="copyright">perrofeofilms © 2020</p>
     </div>
@@ -161,46 +193,46 @@
 </template>
 
 <script>
-import SocialNav from '@/components/SocialNav'
+import SocialNav from "@/components/SocialNav";
 
 export default {
   components: {
     SocialNav
   },
-  data () {
+  data() {
     return {
-      title: 'Tipishca: La Tierra sin Mal'
-    }
+      title: "Tipishca: La Tierra sin Mal"
+    };
   },
-  head () {
+  head() {
     return {
-      title: 'perrofeofilms - ' + this.title,
+      title: "perrofeofilms - " + this.title,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
-          hid: 'description',
-          name: 'description',
-          content: 'Historias desde el Amazonas'
+          hid: "description",
+          name: "description",
+          content: "Historias desde el Amazonas"
         },
         {
-          hid: 'og:description',
-          property: 'og:description',
-          content: 'Historias desde el Amazonas'
+          hid: "og:description",
+          property: "og:description",
+          content: "Historias desde el Amazonas"
         },
         {
-          hid: 'og:image',
-          property: 'og:image',
-          content: 'https://www.perrofeofilms.com/atardecer_tipishca.jpg'
+          hid: "og:image",
+          property: "og:image",
+          content: "https://www.perrofeofilms.com/atardecer_tipishca.jpg"
         },
         {
-          hid: 'og:url',
-          property: 'og:url',
-          content: 'https://www.perrofeofilms.com/tipishca/'
+          hid: "og:url",
+          property: "og:url",
+          content: "https://www.perrofeofilms.com/tipishca/"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
@@ -217,7 +249,7 @@ export default {
   height: 60vh;
 }
 .fondo-tipishca {
-  background-image: url('/atardecer_tipishca.jpg');
+  background-image: url("/atardecer_tipishca.jpg");
 }
 .navbar {
   width: 95vw;
@@ -241,7 +273,7 @@ export default {
   text-align: center;
 }
 .title {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   display: block;
   font-weight: bold;
   font-size: 100px;

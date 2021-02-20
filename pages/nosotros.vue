@@ -234,9 +234,6 @@ export default {
   margin: auto;
   width: 100%;
 }
-.info-text {
-  padding: 30px 0;
-}
 .info a {
   color: #000;
   text-decoration: underline;
