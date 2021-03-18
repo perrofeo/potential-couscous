@@ -150,7 +150,7 @@
           ><img src="~assets/EMAIL_logo-footer.svg" title="Email"
         /></a>
       </div>
-      <p class="copyright">perrofeofilms © 2020</p>
+      <p class="copyright">perrofeofilms © 2021</p>
     </div>
   </div>
 </template>

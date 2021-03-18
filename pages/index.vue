@@ -4,50 +4,55 @@
       <div>
         <b-navbar toggleable="false" type="" variant="">
           <b-navbar-brand v-b-popover.hover="'- ¡Jau!'" title="perrofeofilms">
-            <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg" alt="perrofeo logo">
+            <img
+              class="rounded-circle"
+              src="~assets/logo_perrofeofilms_amarillo.jpg"
+              alt="perrofeo logo"
+            />
           </b-navbar-brand>
           <b-navbar-toggle target="nav_collapse">
-            <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger">
+            <img src="~assets/PRF_WEB_hamburguesa.svg" alt="perrofeo burger" />
           </b-navbar-toggle>
           <b-collapse id="nav_collapse" is-nav class="text-right">
             <b-navbar-nav>
-            <nuxt-link
-              to="/tipishca/"
-            >
-              <span>Tipishca: La Serie</span>
-            </nuxt-link>
-            <nuxt-link
-              to="/unadegato/"
-            >
-              <span>Uña de Gato</span>
-            </nuxt-link>
-            <nuxt-link
-              to="/nosotros/"
-            >
-              <span>Sobre nosotros</span>
-            </nuxt-link>
-            <a href="https://teespring.com/stores/perrofeofilms-shop" class="boton-shop" target="_blank" rel="noopener">
-              <span>Shop</span>
-            </a>
+              <nuxt-link to="/tipishca/">
+                <span>Tipishca: La Serie</span>
+              </nuxt-link>
+              <nuxt-link to="/unadegato/">
+                <span>Uña de Gato</span>
+              </nuxt-link>
+              <nuxt-link to="/nosotros/">
+                <span>Sobre nosotros</span>
+              </nuxt-link>
+              <a
+                href="https://teespring.com/stores/perrofeofilms-shop"
+                class="boton-shop"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>Shop</span>
+              </a>
               <social-nav />
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
-        <section class="home d-flex flex-column align-items-center justify-content-center">
+        <section
+          class="home d-flex flex-column align-items-center justify-content-center"
+        >
           <div class="films">
             <div class="texto-portada">
-              <img src="~assets/PRF_logo150.svg" alt="perrofeofilms">
+              <img src="~assets/PRF_logo150.svg" alt="perrofeofilms" />
               <h5>presenta</h5>
               <h4>Un viaje al planeta Tipishca</h4>
             </div>
             <ul>
-            <li>
-            <nuxt-link to="/unadegato/">
-              <b-button>
-                Uña de Gato
-              </b-button>
-            </nuxt-link>
-            </li>
+              <li>
+                <nuxt-link to="/unadegato/">
+                  <b-button>
+                    Uña de Gato
+                  </b-button>
+                </nuxt-link>
+              </li>
             </ul>
           </div>
         </section>
@@ -56,38 +61,63 @@
     <div class="footer text-center">
       <div class="brand-footer">
         <nuxt-link to="/">
-          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms">
+          <img src="~assets/PRF_logo150.svg" alt="perrofeofilms" />
         </nuxt-link>
       </div>
       <div class="footer-menu">
         <nuxt-link to="/tipishca/">Tipishca</nuxt-link>
-        <nuxt-link to="/unadegato/">
-          Uña de Gato</nuxt-link>
+        <nuxt-link to="/unadegato/"> Uña de Gato</nuxt-link>
         <nuxt-link to="/nosotros/">Nosotros</nuxt-link>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener">
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+        >
           <span>Shop</span>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"></a>
-        <a href="https://www.instagram.com/perrofeofilms/" target="_blank" rel="noopener"><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"></a>
-        <a href="https://teespring.com/stores/perrofeofilms-shop" target="_blank" rel="noopener"><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"></a>
-        <a href="https://www.patreon.com/perrofeofilms" target="_blank" rel="noopener"><img src="~assets/PATREON_logo-footer.svg" title="Patreon"></a>
-        <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL_logo-footer.svg" title="Email"></a>
+        <a
+          href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/YOUTUBE_logo-footer.svg" title="YouTube"
+        /></a>
+        <a
+          href="https://www.instagram.com/perrofeofilms/"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/INSTAGRAM_logo-footer.svg" title="Instagram"
+        /></a>
+        <a
+          href="https://teespring.com/stores/perrofeofilms-shop"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/TEESPRING_logo-footer.svg" title="Shop"
+        /></a>
+        <a
+          href="https://www.patreon.com/perrofeofilms"
+          target="_blank"
+          rel="noopener"
+          ><img src="~assets/PATREON_logo-footer.svg" title="Patreon"
+        /></a>
+        <a href="mailto:perrofeofilms@gmail.com"
+          ><img src="~assets/EMAIL_logo-footer.svg" title="Email"
+        /></a>
       </div>
-      <p class="copyright">perrofeofilms © 2020</p>
+      <p class="copyright">perrofeofilms © 2021</p>
     </div>
   </div>
 </template>
 
 <script>
-import SocialNav from '@/components/SocialNav'
+import SocialNav from "@/components/SocialNav";
 
 export default {
   components: {
     SocialNav
   }
-}
+};
 </script>
 
 <style>
@@ -99,7 +129,7 @@ export default {
   text-align: center;
 }
 .container-index {
-  background-image: url('/portadaC.jpg');
+  background-image: url("/portadaC.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
