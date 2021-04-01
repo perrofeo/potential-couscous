@@ -82,7 +82,9 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    // https://www.elian.codes/blog/adding-tracking-with-ga4-to-nuxt/
+    '~/plugins/gtag.js'
   ],
   /*
   ** Nuxt.js dev-modules
