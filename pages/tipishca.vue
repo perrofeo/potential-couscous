@@ -187,7 +187,7 @@
           ><img src="~assets/EMAIL_logo-footer.svg" title="Email"
         /></a>
       </div>
-      <p class="copyright">perrofeofilms © 2021</p>
+      <p class="copyright">perrofeofilms © {{ new Date().getFullYear() }}</p>
     </div>
   </div>
 </template>
