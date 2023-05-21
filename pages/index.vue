@@ -53,6 +53,13 @@
                   </b-button>
                 </nuxt-link>
               </li>
+              <li class="pt-3">
+                <nuxt-link to="/tipishca/">
+                  <b-button>
+                    Tipishca, la tierra sin mal
+                  </b-button>
+                </nuxt-link>
+              </li>
             </ul>
           </div>
         </section>
